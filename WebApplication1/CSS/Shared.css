@@ -1,0 +1,130 @@
+﻿html{
+    background: url(../Images/Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+    background:none;
+        color: #505050;
+        font: 14px 'Segoe UI', tahoma, arial, helvetica, sans-serif;
+        margin: 0px;
+        padding: 0;
+    }
+
+    #header {
+        background: #efefef;
+        padding: 0;
+        text-align:center;
+    }
+
+#menu {
+    background: none; /*#13b8ef*/;
+    padding: 0 60px;
+    text-align: center;
+    margin: 20px;
+}
+ a {
+    width: 20%;
+    border:1px solid #267cb2;
+    background: #efefef;
+    font-size:20px;
+    display:inline-block;
+ }
+ a:hover{
+    background: #267cb2;
+ }
+ .btn_confirmar {
+     text-align:center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left:5px;
+}
+
+ b{
+    width:100%;
+    border:1px solid #267cb2;
+    background: #efefef;
+    font-size:20px;
+    display:inline-block;
+    margin-bottom:25px;
+ }
+ .btn{
+    border:1px solid #000000;
+
+ }
+
+    h1 {
+        font-size: 30px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0 30px;
+        line-height: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        background: #efefef;
+        padding: 0 30px;
+        line-height: 50px;
+    }
+
+    #main {
+        padding: 0px;
+    }
+
+    .section {
+        width: 21.7%;
+        float: left;
+        margin: 0 0 0 4%;
+    }
+
+        .section h2 {
+            font-size: 13px;
+            text-transform: uppercase;
+            margin: 0;
+            border-bottom: 1px solid silver;
+            padding-bottom: 12px;
+            margin-bottom: 8px;
+        }
+
+        .section.first {
+            margin-left: 0;
+        }
+
+            .section.first h2 {
+                font-size: 24px;
+                text-transform: none;
+                margin-bottom: 25px;
+                border: none;
+            }
+
+            .section.first li {
+                border-top: 1px solid silver;
+                padding: 8px 0;
+            }
+
+        .section.last {
+            margin-right: 0;
+        }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    li {
+        padding: 4px 0;
+    }
+
+    a {
+        color: #267cb2;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }

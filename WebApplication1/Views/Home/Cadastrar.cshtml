@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+@model WebApplication1.Controllers.HomeController
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Startup'&'Go</title>
+</head>
+<body>
+    @if ( ViewBag.Mensagem != null && ViewBag.Mensagem != "")
+    {
+        <div style="background: red">
+            <h3>@ViewBag.Mensagem</h3>
+        </div>
+    }
+@using (Html.BeginForm("ConfirmarCadastro","Home", "GET"))
+{
+    <div style="background: white">
+        <h2>Cadastre-se</h2>
+        <b>Interessado no projeto? Inscreva-se para receber atualizações</b>
+        <br />
+        <div>
+            <label style="margin-bottom:15px;">Nome completo: </label>
+            @Html.TextBoxFor(model => model.Nome)
+        </div>
+        <div>
+            <label style="margin-bottom:15px;">Nome da startup ou empresa </label>
+            @Html.TextBoxFor(model => model.NomeEmpresa)
+        </div>
+        <div>
+            <label style="margin-bottom:15px;">Email: </label>
+            @Html.TextBoxFor(model => model.Email)
+        </div>
+        <div>
+            <label style="margin-bottom:15px;">Confirme seu email: </label>
+            @Html.TextBoxFor(model => model.Email2)
+        </div>
+        <button type="submit" class = "btn_confirmar" >Confirmar</button>
+        </div>
+}
+</body>
+</html>
+
