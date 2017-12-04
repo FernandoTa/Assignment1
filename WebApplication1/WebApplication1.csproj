@@ -257,6 +257,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Images\Background.jpg" />
+    <Content Include="Images\Icones Circulo.png" />
     <Content Include="Images\logo1.jpg" />
     <Content Include="Images\logo2.jpg" />
     <Content Include="Images\teste.jpg" />
